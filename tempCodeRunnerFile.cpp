@@ -1,1 +1,1 @@
-        locatormax = i + 1;
+    }
