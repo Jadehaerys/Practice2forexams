@@ -15,8 +15,8 @@ double b = sc.nextDouble();
 double sum = a + b;
 double average = sum / 2;
 
-System.out.print("The sum of the two numbers is: ", + sum);
-System.out.print("The average of the two numbers is: ", + average);
+System.out.printf("The sum of the two numbers is: ", + sum);
+System.out.printf("The average of the two numbers is: ", + average);
 
 
 }
