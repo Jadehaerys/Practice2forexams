@@ -1,0 +1,35 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.Scanner;
+
+public class ArrayPractical {
+   public ArrayPractical() {
+   }
+
+   public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int[][] arr = new int[3][3];
+
+      while(true) {
+         System.out.print("Enter Coordinates for row and put -1 to quit: ");
+         int row = sc.nextInt();
+         if (row == -1) {
+            break;
+         }
+
+         System.out.print("Enter Coordinates for column and put -1 to quit: ");
+         int column = sc.nextInt();
+         if (column == -1) {
+            break;
+         }
+
+         backboneprac2 b = new backboneprac2(arr, row, column);
+         if (b.isValid(row, column)) {
+            int var10002 = arr[row][column]++;
+            b.display();
+         } else {
+            System.out.print("Invalid Position Try again\n");
+         }
+      }
+
+   }
+}
