@@ -55,7 +55,10 @@ public class Activity2{
          emp.set(placement, nameSet);
       break;
       
-      case 4:       
+      case 4:    
+      for(int i = 0; i < emp.size(); i++ ){
+         System.out.print("[" + i + "]: " + emp.get(i) + " ");
+     }   
          System.out.print("Which Employee to Remove: ");
          int removed = sc.nextInt();
          emp.remove(removed);
