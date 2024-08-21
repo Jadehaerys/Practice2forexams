@@ -25,7 +25,7 @@ public class Activity2{
       
       case 1: 
       
-         System.out.print("Enter new Employee: ");
+         System.out.print("Enter Name of New Employee: ");
          String name = sc.nextLine();
          emp.add(name);
          break;
