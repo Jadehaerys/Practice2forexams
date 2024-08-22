@@ -78,9 +78,9 @@ public class Activity2{
          
          }
          System.out.print("Employees are: ");
-         for(String employee: emp){
+         for(String employeeName: emp){
            
-            System.out.print(employee + " ");
+            System.out.print(employeeName + " ");
             
          }
       break;
