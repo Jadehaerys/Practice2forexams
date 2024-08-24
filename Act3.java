@@ -3,7 +3,7 @@ import java.util.*;
 
 
 public class Act3{
-    public static void main(String [] elton){
+    public static void main(String [] john){
         int size;
         Scanner sc  = new Scanner(System.in);
         while(true){
@@ -67,6 +67,6 @@ public class Act3{
     }while(key <= 0);
 
         
-
+sc.close();
 }
 }
