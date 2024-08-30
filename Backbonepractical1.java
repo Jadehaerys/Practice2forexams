@@ -36,6 +36,7 @@ public class Backbonepractical1{
     public void Search(java.util.Scanner sc){
         System.out.print("How many do you Want to Order?: ");
         int limiter = sc.nextInt();
+        sc.nextLine();
         int key = 0;
         int sum = 0;
         do{
