@@ -13,8 +13,7 @@ public class App1 {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel panel = new JPanel() {
-            private final Image backgroundImage = new ImageIcon(
-                    "Images\\99866465-vector-illustration-of-streets-crossing-in-modern-city-city-crossroad-with-traffic-lights-markings.jpg")
+            private final Image backgroundImage = new ImageIcon("Images\\99866465-vector-illustration-of-streets-crossing-in-modern-city-city-crossroad-with-traffic-lights-markings.jpg")
                     .getImage(); // Provide the path to your background image
 
             @Override
